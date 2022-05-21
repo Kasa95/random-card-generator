@@ -1,1 +1,45 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.redCard {
+  color: red;
+}
+
+.blackCard {
+  color: black;
+}
+
+body {
+  background-color: darkgreen;
+  font-size: xx-large;
+}
+
+.cards {
+  position: inherit;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 2%;
+  height: 400px;
+}
+
+#paloTop {
+  padding-left: 20px;
+  font-size: 45pt;
+}
+
+#paloBottom {
+  padding-right: 20px;
+  font-size: 45pt;
+}
+
+.numero {
+  font-size: 65pt;
+}
